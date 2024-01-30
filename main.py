@@ -10,7 +10,7 @@ data = {"name":"shopping cart",
 
 @app.get("/")
 def root():
-    return {"message":"Welcome to Toko H8 Shopping Cart! There are some features that you can explore",
+    return {"message":"Welcome to Toko Madura Shopping Cart! There are some features that you can explore",
             "menu":{1:"See shopping cart (/data)",
                     2:"Add item (/add) - You may need request",
                     3:"Edit shopping cart (/edit/id)",
